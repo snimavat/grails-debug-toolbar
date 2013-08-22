@@ -1,0 +1,22 @@
+<plugin name='debug-toolbar' version='0.1' grailsVersion='1.1.1 &gt; *'>
+  <author>Kapil Sachdeva</author>
+  <authorEmail>ksachdeva17@gmail.com</authorEmail>
+  <title>A debug toolbar for Grails Web Applications</title>
+  <description>\
+    	Grails Debug toolbar is a configurable set of panels that display various debug 
+    	information about the current request/response.
+    	It is inspired by the Django debug toolbar (http://robhudson.github.com/django-debug-toolbar/)
+ </description>
+  <documentation>http://grails.org/DebugToolbar+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.ConfigDebugPanel</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.HeaderDebugPanel</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.RequestVarsDebugPanel</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.VersionDebugPanel</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.TemplateEngineService</resource>
+    <resource>org.codehaus.groovy.grails.plugins.debugtoolbar.DebugToolbarTagLib</resource>
+  </resources>
+  <dependencies />
+</plugin>
